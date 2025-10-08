@@ -67,15 +67,15 @@ const Weather = () => {
   }, []);
 
   return (
-    <div className="place-self-center p-[40px] rounded-[10px] bg-gradient-to-r from-[#2f4680] to-[#500ae4] flex flex-col items-center">
+    <div className="place-self-center p-[40px] rounded-[10px] bg-gradient-to-r from-[#2f4680] to-[#500ae4] flex flex-col items-center justify-center">
       <div className="flex flex-col items-center justify-center gap-5">
         <div className="flex items-center gap-1">
           <span>
             <img src={cloudy} alt="" className="w-8" />
           </span>
-          <h1 className="text-xl text-blue-200 font-semibold">
+          <h1 className="text-xl font-semibold bg-gradient-to-r from-yellow-300 to-sky-300 bg-clip-text text-transparent">
             {" "}
-            <span className="text-yellow-300">Clou</span>dz
+            Cloudz
           </h1>
         </div>
         <div className="flex items-center gap-2">
