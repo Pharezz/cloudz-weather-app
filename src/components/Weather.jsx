@@ -6,6 +6,7 @@ import humidity from "../assets/humidity.png";
 import rainy from "../assets/rainy.png";
 import snow from "../assets/snow.png";
 import wind from "../assets/wind.png";
+import searchIcon from "../assets/search.png"
 
 const Weather = () => {
   const [weatherData, setWeatherData] = useState(null);
@@ -83,7 +84,7 @@ const Weather = () => {
             className="cursor-pointer rounded-full bg-[#ebfffc] p-3"
             onClick={() => search(inputRef.current.value)}
           >
-            <img src="src/assets/search.png" alt="" className="h-5 w-5 " />
+            <img src={searchIcon} alt="" className="h-5 w-5 " />
           </span>
           <input
             type="text"
