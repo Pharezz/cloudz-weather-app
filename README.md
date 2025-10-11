@@ -25,9 +25,13 @@ Error states for invalid lookups and rate limits
 Responsive layout and accessibility considerations
 
 Quickstart (3 commands):
+
 git clone https://github.com/Pharezz/cloudz-weather-app.git
+
 cd cloudz-weather
+
 cp .env.example .env
+
 npm install && npm run dev
 
 Architecture:
