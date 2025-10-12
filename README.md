@@ -39,12 +39,6 @@ Architecture:
 Frontend calls external weather API directly.
 
 
-Tests & CI:
-
-Basic unit tests for data parsing logic and UI snapshots.
-
-CI runs tests and deploys to Netlify on merge to main.
-
 Demo info:
 
 No authentication required — public demo.
