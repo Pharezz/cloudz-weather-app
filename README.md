@@ -28,7 +28,7 @@ Quickstart (3 commands):
 
 git clone https://github.com/Pharezz/cloudz-weather-app.git
 
-cd cloudz-weather
+cd weather-app
 
 cp .env.example .env
 
