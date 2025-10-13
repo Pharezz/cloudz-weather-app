@@ -1,12 +1,57 @@
-# React + Vite
+Weather lookup app that consumes public weather APIs and presents forecasts.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Live demo: https://clouddz.netlify.app
 
-Currently, two official plugins are available:
+Repo: https://github.com/Pharezz/cloudz-weather-app.git
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+Tech:
+
+React 
+
+Public weather API (OpenWeatherMap)
+
+Netlify hosting 
+
+
+Features:
+
+City search and current conditions
+
+Error states for invalid lookups and rate limits
+
+Responsive layout and accessibility considerations
+
+Quickstart (3 commands):
+
+git clone https://github.com/Pharezz/cloudz-weather-app.git
+
+cd weather-app
+
+cp .env.example .env
+
+npm install && npm run dev
+
+Architecture:
+
+Frontend calls external weather API directly.
+
+
+Demo info:
+
+No authentication required — public demo.
+
+Learnings & notes:
+
+Focused on resilient API integration and error handling for different HTTP failure modes.
+
+
+License:
+
+MIT
+
+Contact
+
+Open an issue or email oguegbuikechukwu@gmail.com.
